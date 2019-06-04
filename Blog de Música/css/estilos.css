@@ -1,0 +1,46 @@
+.container{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: black;
+	font-family: 'Sniglet', cursive;
+}
+.header{
+	background: black;
+}
+.redes-sociales{
+	float: right;
+	margin-top: 2rem;
+}
+.col-nav{
+	background: black;
+}
+.nav a{
+	color: white;
+}
+.nav a:hover{
+	color: black;
+}
+.don{
+	background: #252424;
+	color: white;
+	font-size: 2rem
+}
+.icon-persona{
+	font-size: 400%;
+}
+.fondo-comentarios{
+	background: #252424;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.comentarios{
+	border-radius: 15px;
+	color: black;
+}
+@media only screen and (max-width:600px){
+	.comentarios{
+		width: 70%;
+	}
+}

@@ -1,0 +1,10 @@
+body{
+  background-image: url('../img/turismo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 1.5rem;
+}
+.contenedor{
+  width: 100%;
+}

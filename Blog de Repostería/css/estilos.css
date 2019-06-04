@@ -1,0 +1,77 @@
+.body{
+  font-family: 'Caveat', cursive;
+  font-size: 1.5rem;
+  background-image: url('../img/reposteria.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contenedor{
+  width: 80%;
+  margin: 0 auto;
+  background: rgba(145, 145, 145, 0.6);
+}
+.menu li a{
+  color: black;
+}
+.menu li a:hover{
+  background: #96FFD1;
+}
+.favoritas{
+  width: 100%;
+}
+.selva{
+  font-family: 'Caveat', cursive;
+}
+.titulo{
+  font-family: 'Caveat', cursive;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+.titulo2{
+  font-family: 'Caveat', cursive;
+  text-align: right;
+}
+.list-group {
+  margin-bottom: 1rem;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  background: #fefefe;
+  box-shadow: none;
+  overflow: hidden;
+  color: #0a0a0a;
+}
+
+.list-group > :last-child {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.list-group-item > :last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.list-group-item.active {
+  color: #fefefe;
+  background-color: #1779ba;
+  border-color: 1px solid #1779ba;
+}
+
+.list-group-item:hover, .list-group-item:focus {
+  background-color: #e6e6e6;
+}
+
+.list-group-item:hover.active, .list-group-item:focus.active {
+  background-color: #1779ba;
+}
+
+.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus, .list-group-item[disabled], .list-group-item[disabled]:hover, .list-group-item[disabled]:focus {
+  color: #8a8a8a;
+  cursor: not-allowed;
+  background-color: #fefefe;
+}
